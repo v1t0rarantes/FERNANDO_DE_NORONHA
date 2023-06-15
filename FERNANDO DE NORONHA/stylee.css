@@ -1,0 +1,152 @@
+@charset "UTF-8"
+
+/* Reset de estilos */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1{
+	text-shadow: 1px 1px;
+	color: darkblue;
+}
+
+header {
+  background-color: skyblue;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+}
+.logo 1{
+	position: absolute;
+	width: 20px;
+	top: 0px;
+	text-align: center;
+}
+
+img{
+	width: 400px;
+	text-align: left;
+}
+
+.f1{
+   color: skyblue;
+  font-family: Arial, sans-serif;
+
+}
+.fer1{
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+.i3{
+  width: 500px;
+  height: 300px;
+}
+
+
+    .package {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+    }
+
+    .package-image {
+      flex: 4;
+      max-width: 50%;
+      padding: 20px;
+    }
+
+    .package-description {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .package-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .package-price {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .package-features {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .package-button {
+      background-color: darkblue;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .package-button:hover {
+      background-color: green;
+    }
+.fim1{
+  color: darkblue;  
+  text-shadow: black;
+}
+.e-mail{
+  background-color: skyblue;
+}
+.fim{
+    background-color: skyblue;
+  padding: 10px;
+}
+.e-mail{
+  color: darkblue;
+}
